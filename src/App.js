@@ -1,11 +1,11 @@
 
 import './App.css';
-import ResourceAllocation from './Components/Gantt/Gantt';
+import { StackedBar } from './Components/StackedBar100/StackedBar';
 
 function App() {
   return (
     <div className="App">
-      <ResourceAllocation/>
+       <StackedBar/>
     </div>
   );
 }
